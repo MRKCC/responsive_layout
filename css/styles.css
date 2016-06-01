@@ -69,6 +69,15 @@ li {
     display: none;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+  margin-top: -40px;
+}
+
 
 
 @media only screen and (min-width: 480px) {
@@ -93,7 +102,7 @@ li {
         display: inline;
     }
 
-    .col {
+    .column {
         display: inline-block;
         width: 35%;
         margin-right: 8px;
@@ -102,7 +111,7 @@ li {
         padding-right: 1em;
     }
 
-    .col-2 {
+    .column-2 {
         display: inline-block;
         width: 35%;
         margin-right: 10px;
@@ -112,7 +121,6 @@ li {
     }
 
     img[alt="Profile Picture"] {
-        min-width: 25%;
         height: 200px;
     }
 
@@ -139,9 +147,10 @@ li {
 
 
 
-    .btt {
+    .back-to-top {
         display: none;
     }
+}
 
 
 @media only screen and (min-width: 769px) {
@@ -163,11 +172,12 @@ li {
         margin: 0 auto;
     }
 
-    .col {
+    .column {
       width: 29%;
     }
 
-    img[alt="Profile Picture"] {
-      max-width: 480px;
-    }
+    /* img[alt="Profile Picture"] {
+      max-width: 480px; Before
+      width: 480px;
+    } */
 }
