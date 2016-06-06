@@ -69,7 +69,7 @@ li {
   margin: 5px 0;
 }
 
-.footer {
+.nav-footer {
     display: none;
 }
 
@@ -107,7 +107,7 @@ nav ul li {
         margin: 0 auto;
   }
 
-    .column {
+  .column {
         display: inline-block;
         width: 45%;
         margin-right: 8px;
@@ -116,7 +116,7 @@ nav ul li {
         padding-right: 1em;
     }
 
-    .column-2 {
+  .column-2 {
         display: inline-block;
         width: 45%;
         margin-right: 8px;
@@ -133,12 +133,12 @@ nav ul li {
         float: left;
     }
 
-    .footer {
+    .nav-footer {
         display: inline;
         flex-direction: row;
     }
 
-    .footer a {
+    .nav-footer a {
         margin: 0;
         float: right;
     }
@@ -148,7 +148,7 @@ nav ul li {
     }
 
     .align-left p {
-        margin-top: 65px;
+        margin-top: 2px;
     }
 
     .container {
@@ -185,10 +185,6 @@ nav ul li {
         width: 25%;
     }
 
-    .align-left p {
-        margin-top: 70px;
-    }
-
     .title {
         float: left;
     }
@@ -196,5 +192,9 @@ nav ul li {
     .desktop-nav {
         float: right;
         width: 37.5%;
+    }
+
+    .align-left p {
+        margin-top: 16px;
     }
 }
